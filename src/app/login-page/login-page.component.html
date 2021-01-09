@@ -1,0 +1,23 @@
+<body>
+    
+<form>
+  <span class = "input">
+    <label>Username</label>
+    <input type = "text" name = "inputUsername" [(ngModel)]="inputUsername">
+  </span>
+
+  <span class = "input2">
+    <label>Password</label>
+    <input type = "password" name = "inputPassword" [(ngModel)]="inputPassword">
+  </span>
+
+ 
+<br><br>
+  <button (click) = "addInfor()" >Click button</button>
+
+  <div class = "message">
+    <label>Username and password boxes are {{auth}}.</label>
+  </div>
+
+</form>
+</body>
