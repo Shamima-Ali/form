@@ -29,17 +29,21 @@ body {
 
 }
 #explanation{
+
     text-align: center;
     font-family: 'PT Sans', sans-serif;
-    background-color: rgb(98, 14, 39);
+    background-color:#5E96A1;
     color: white;
-    padding: 70px 0px 70px 0px;
+    padding: 65px 0px 65px 0px;
     margin-left: auto;
     margin-right: auto;
     font-size: 40px;
 
 }
+div{
+    margin-top: 10px;
 
+}
 a:visited {
   color: white;
   background-color: transparent;
